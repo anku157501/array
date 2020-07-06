@@ -9,9 +9,16 @@ using namespace std;
 
 
 //You need to complete this function
+// double cToF(int C)
+// {
+//     return (double)(9*C/5+32);
+//     //Your code here
+// }
+
+// // { Driver Code Starts.
 double cToF(int C)
 {
-    return (double)(9*C/5+32);
+    return (9*C/5.0+32);
     //Your code here
 }
 
