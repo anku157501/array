@@ -17,3 +17,26 @@ public class Main
 		
 	}
 }
+
+
+//////////////////////////////////////////////////////////////OR
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		int n=sc.nextInt();
+    	System.out.println(cal(n));
+	}
+    	public static boolean cal(int n){
+    	    if(n==0)
+    	    return false;
+    	    while(n!=1){
+    	        if(n%2!=0)
+    	        return false;
+    	        n/=2;
+    	    }
+    	    return true;
+    	} 
+	
+}
